@@ -5,10 +5,15 @@ import store from './store'
 import 'amfe-flexible'
 // import './lib/rem.js'
 
-import ViewUI from 'view-design';
-import 'view-design/dist/styles/iview.css';
+import Vant from 'vant';
+import 'vant/lib/index.css';
 
-Vue.use(ViewUI);
+Vue.use(Vant);
+
+// import ViewUI from 'view-design';
+// import 'view-design/dist/styles/iview.css';
+
+// Vue.use(ViewUI);
 
 Vue.config.productionTip = false
 
